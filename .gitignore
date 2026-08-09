@@ -1,0 +1,25 @@
+.DS_Store
+**/.DS_Store
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated output
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+dist/
+coverage/
+*.zip
+
+# Local and production data must never be committed
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+standalone/data/
+data/

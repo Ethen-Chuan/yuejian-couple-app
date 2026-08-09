@@ -1,0 +1,19 @@
+{
+  "name": "约见",
+  "short_name": "约见",
+  "description": "从今晚去哪，到一段值得记住的晚上。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff8f1",
+  "theme_color": "#fff8f1",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "./assets/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
